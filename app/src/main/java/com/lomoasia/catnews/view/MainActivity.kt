@@ -1,10 +1,10 @@
 package com.lomoasia.catnews.view
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.lomoasia.catnews.R
+import com.lomoasia.catnews.base.BaseActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
